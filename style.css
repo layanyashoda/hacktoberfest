@@ -11,13 +11,13 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: linear-gradient(135deg, #4CAF50, #81C784);
+  background: linear-gradient(135deg, #F0F0F5, #D1D1E0);
   transition: background 0.4s ease-in-out;
   overflow: hidden;
 }
 
 body.dark-mode {
-  background: linear-gradient(135deg, #2E7D32, #1B5E20);
+  background: linear-gradient(135deg, #1C1C1E, #2C2C2E);
 }
 
 /* Title positioned in the top-left corner */
@@ -26,13 +26,13 @@ body.dark-mode {
   top: 20px;
   left: 20px;
   font-size: 1.5rem;
-  color: #1B5E20;
+  color: #1C1C1E;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 body.dark-mode .title {
-  color: #A5D6A7;
+  color: #F0F0F5;
 }
 
 .theme-toggle {
@@ -84,18 +84,18 @@ textarea {
   font-size: 1rem;
   border: 2px solid #ddd;
   border-radius: 10px;
-  background-color: #E8F5E9;
-  color: #2E7D32;
+  background-color: #F0F0F5;
+  color: #1C1C1E;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 textarea:focus {
-  border-color: #A5D6A7;
+  border-color: #D1D1E0;
 }
 
 body.dark-mode textarea {
   background-color: #333;
-  color: #A5D6A7;
+  color: #F0F0F5;
   border-color: #444;
 }
 
@@ -104,14 +104,14 @@ body.dark-mode textarea {
 }
 
 label {
-  color: #2E7D32;
+  color: #1C1C1E;
   font-weight: bold;
   margin-right: 5px;
   transition: color 0.3s ease;
 }
 
 body.dark-mode label {
-  color: #A5D6A7;
+  color: #F0F0F5;
 }
 
 select {
@@ -122,11 +122,11 @@ select {
 }
 
 select:focus {
-  border-color: #A5D6A7;
+  border-color: #D1D1E0;
 }
 
 button {
-  background: linear-gradient(135deg, #A5D6A7, #81C784);
+  background: linear-gradient(135deg, #D1D1E0, #A1A1B0);
   color: white;
   padding: 12px 30px;
   font-size: 1.1rem;
@@ -136,20 +136,20 @@ button {
   cursor: pointer;
   transition: all 0.3s ease, transform 0.2s ease-in;
   margin: 10px 5px;
-  box-shadow: 0px 8px 16px rgba(76, 175, 80, 0.4);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 button:hover {
-  background: linear-gradient(135deg, #81C784, #A5D6A7);
+  background: linear-gradient(135deg, #A1A1B0, #D1D1E0);
   transform: translateY(-3px);
-  box-shadow: 0px 10px 20px rgba(76, 175, 80, 0.6);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 button:active {
   transform: translateY(0);
-  box-shadow: 0px 6px 12px rgba(76, 175, 80, 0.4);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
 body.dark-mode button {
-  background: linear-gradient(135deg, #388E3C, #66BB6A);
+  background: linear-gradient(135deg, #3A3A3C, #48484A);
 }
