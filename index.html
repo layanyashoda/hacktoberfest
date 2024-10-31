@@ -13,7 +13,7 @@
   </div>
 
   <!-- Dark mode toggle button in top right corner -->
-  <div class="theme-toggle" onclick="toggleDarkMode()">
+  <div class="theme-toggle" onclick="toggleDarkMode()" aria-label="Toggle Dark Mode"></div>
     <span id="themeIcon">☀️</span>
   </div>
   
@@ -39,12 +39,12 @@
       </select>
     </div>
 
-    <button onclick="obfuscateCode()">Obfuscate Code</button>
+    <button type="button" onclick="obfuscateCode()">Obfuscate Code</button>
     
     <label for="outputCode">Obfuscated Code:</label>
     <textarea id="outputCode" readonly></textarea>
     
-    <button onclick="copyCode()" id="copyButton">Copy Code</button>
+    <button type="button" onclick="copyCode()" id="copyButton">Copy Code</button>
   </div>
   
   <script src="script.js"></script>
