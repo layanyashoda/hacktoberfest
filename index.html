@@ -20,13 +20,17 @@
   <div class="container">
     <label for="inputCode">Enter Your Code:</label>
     <textarea id="inputCode" placeholder="Type your JavaScript code here..."></textarea>
+    <div class="options"></div>
+      <label for="minifyCode">Minify Code:</label>
+      <input type="checkbox" id="minifyCode">
+    </div>
     
     <div class="options">
       <label for="obfuscationType">Obfuscation Type:</label>
       <select id="obfuscationType">
-        <option value="base64">Base64</option>
-        <option value="rot13">ROT13</option>
-        <option value="scramble">Character Scramble</option>
+      <option value="base64">Base64</option>
+      <option value="rot13">ROT13</option>
+      <option value="scramble">Character Scramble</option>
       </select>
     </div>
 
