@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Arial', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: linear-gradient(135deg, #4CAF50, #81C784);
   transition: background 0.4s ease-in-out;
   overflow: hidden;
